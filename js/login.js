@@ -18,7 +18,7 @@ document.getElementById('button-login').addEventListener('click',function(event)
     if(phoneNumber === '01841065033' && pinNumber === '001122'){
         console.log('You are logged in');
         // Step 5  allow user to the website
-        window.location.href = '/home.html'
+        window.location.href = '../home.html'
     }
     else{
         alert('Wrong phone number  or pin');
